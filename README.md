@@ -1,25 +1,22 @@
-# Serenity JUnit Starter project
+# Data Driven Testing In JUnit
 
-Get started quickly with Serenity BDD and JUnit 5 with this simple starter project. 
+Story: Standard discount coupons
+Business Rule: Different discount coupons can be used to obtain different levels of discount
 
-## Get the code
+Scenario Outline: Standard discount coupons
+    Given I am a registered customer
+    When I buy a product with a discount coupon of type <coupon>
+    And my country of residence is <country>
+    Then I should get a discount of <discount>%
 
-Click on the [Use This Template button](https://github.com/serenity-bdd/serenity-junit-starter/generate) to create a new project in your own Github account. 
+    Examples: UK discount coupons
+        | coupon    | country | discount | 
+        | 10PERCENT | UK      | 10       | 
+        | 20PERCENT | UK      | 20       |
+        | 30PERCENT | UK      | 30       |
 
-Or simply [download a zip](https://github.com/serenity-bdd/serenity-junit-starter/archive/master.zip) file.
-
-## Running the tests under Maven
-
-The template project comes with both Maven and Gradle build scripts. To run the tests with Maven, open a command window and run:
-
-  mvn clean verify
-
-## Use Gradle
-
-For GRADLE, pen a command window and run:
-
-  gradlew test 
-
-## Viewing the reports
-
-Both of the commands provided above will produce a Serenity test report in the `target/site/serenity` directory. Go take a look!
+    Examples: FR discount coupons
+        | coupon    | country | discount | 
+        | 10PERCENT | FR      | 15       | 
+        | 20PERCENT | FR      | 25       |
+        | 30PERCENT | FR      | 35       |
