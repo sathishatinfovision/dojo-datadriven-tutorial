@@ -1,2 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"When searching for terms","Search by single keyword","SUCCESS","2023-06-07T16:47:26.080784999Z[Etc/UTC]","0.0","5.7"
+"Coupon discount test","Should calculate discount","SUCCESS","2023-06-07T18:12:05.466007123Z[Etc/UTC]","0.0","0.17"
+"Coupon discount test","Should calculate UK discount","SUCCESS","2023-06-07T18:12:05.478980709Z[Etc/UTC]","0.0","0.01"

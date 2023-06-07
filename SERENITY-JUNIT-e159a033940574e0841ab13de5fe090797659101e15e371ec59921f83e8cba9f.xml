@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="coupons.CouponDiscountTest" skipped="0" tests="6" time="0.18" timestamp="2023-06-07 06:12:05"><testcase classname="coupons.CouponDiscountTest" name="Should calculate discount"/><testcase classname="coupons.CouponDiscountTest" name="Should calculate UK discount"/></testsuite>

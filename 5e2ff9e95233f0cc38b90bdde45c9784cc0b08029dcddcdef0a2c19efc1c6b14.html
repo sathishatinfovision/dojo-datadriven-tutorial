@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8"/>
-    <title>Search by single keyword</title>
+    <title>Should calculate UK discount</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
@@ -121,7 +121,7 @@
         <span class="breadcrumbs">
             <a href="index.html" class="breadcrumbs">Home</a>
 
-        > Search by single keyword
+        > Should calculate UK discount
         </span>
         </div>
         <div class="rightbg"></div>
@@ -139,7 +139,7 @@
             <a href="capabilities.html"><i class="bi bi-journal-text"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 07-06-2023 16:47</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 07-06-2023 18:12</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -154,14 +154,14 @@
                                 <div>
                                     <h3 class="discreet-story-header">
                                         <i class="fs-2 bi bi-chat-left-quote large-icon"></i>
-                                        <span class="story-header-title">When Searching For Terms</span>
+                                        <span class="story-header-title">Coupon Discount Test</span>
                                     </h3>
                                 </div>
 
                         </td>
                         <td valign="top">
                             <p class="tag">
-                                    <span class='context-icon'><i class='bi bi-browser-chrome' title='Chrome'></i> <i class='bi bi-ubuntu' title='Linux'></i></span>
+                                    <span class='context-icon'><i class='bi bi-ubuntu' title='Linux'></i></span>
                             </p>
                         </td>
                     </tr>
@@ -174,7 +174,7 @@
                             <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
                                 <span class="success-color">
-                                    Search by single keyword
+                                    Should calculate UK discount
                                         <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -196,6 +196,64 @@
 <div id="beforetable"></div>
 
 
+        <h3 class="story-header">Examples:&nbsp;</h3>
+            <div class="requirementNarrative"></div>
+
+
+            <p class="example-tag">
+            </p>
+
+        <div class="example-table test-report">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>#</th>
+                        <th>Coupon</th>
+                        <th>Country</th>
+                        <th>Expected Discount</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#0">1</a></td>
+                            <td class="test-SUCCESS"><a
+                                        href="#0">10PERCENT</a>
+                            </td>
+                            <td class="test-SUCCESS"><a
+                                        href="#0">UK</a>
+                            </td>
+                            <td class="test-SUCCESS"><a
+                                        href="#0">10</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#1">2</a></td>
+                            <td class="test-SUCCESS"><a
+                                        href="#1">20PERCENT</a>
+                            </td>
+                            <td class="test-SUCCESS"><a
+                                        href="#1">UK</a>
+                            </td>
+                            <td class="test-SUCCESS"><a
+                                        href="#1">20</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#2">3</a></td>
+                            <td class="test-SUCCESS"><a
+                                        href="#2">30PERCENT</a>
+                            </td>
+                            <td class="test-SUCCESS"><a
+                                        href="#2">UK</a>
+                            </td>
+                            <td class="test-SUCCESS"><a
+                                        href="#2">30</a>
+                            </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
 <div id="tablecontents">
     <div>
         <table class="step-table">
@@ -206,7 +264,6 @@
                     Steps
                 </th>
 
-                    <th width="150" class="greentext">Screenshots</th>
                 <th width="130" class="greentext">Outcome</th>
                 <th width="100" class="greentext"><i title="Duration" class="bi bi-stopwatch"></i></th>
             </tr>
@@ -226,24 +283,15 @@
                     <td class="step-description-column">
                         <div class="step-description">
                                 <span class="top-level-step">
-                                                Navigate to the home page
+                                                Should calculate UK discount  {country=UK, expectedDiscount=10, coupon=10PERCENT}
                                         </span>
                             <span class="evidence">
                                 </span>
                         </div>
                     </td>
 
-                        <td width="160" class="SUCCESS-text">
-
-                                <a href="551e573dae173d426ed5f91133c2ce7562d2d1ce19cd8f3df3addce0dcfb613f_screenshots.html#screenshots?screenshot=0">
-                                    <img src="a3cd78b8ed2cbf9c53181dacf2a8cb3572fac6831d52a71fc644ced53e9d5ccb.png"
-                                         href="a3cd78b8ed2cbf9c53181dacf2a8cb3572fac6831d52a71fc644ced53e9d5ccb.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
                     <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">3s 293ms</span></td>
+                    <td width="100"><span class="top-level-step">004ms</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
 
@@ -257,24 +305,15 @@
                     <td class="step-description-column">
                         <div class="step-description">
                                 <span class="top-level-step">
-                                                Search by keyword 'Everest'
+                                                Should calculate UK discount  {country=UK, expectedDiscount=20, coupon=20PERCENT}
                                         </span>
                             <span class="evidence">
                                 </span>
                         </div>
                     </td>
 
-                        <td width="160" class="SUCCESS-text">
-
-                                <a href="551e573dae173d426ed5f91133c2ce7562d2d1ce19cd8f3df3addce0dcfb613f_screenshots.html#screenshots?screenshot=1">
-                                    <img src="e698dfc94837e7b53af91a304a1d84116e76e28402532f23a856ff93b983ae39.png"
-                                         href="e698dfc94837e7b53af91a304a1d84116e76e28402532f23a856ff93b983ae39.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
                     <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">1s 352ms</span></td>
+                    <td width="100"><span class="top-level-step">004ms</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
 
@@ -288,29 +327,20 @@
                     <td class="step-description-column">
                         <div class="step-description">
                                 <span class="top-level-step">
-                                                The first heading should be 'Mount Everest'
+                                                Should calculate UK discount  {country=UK, expectedDiscount=30, coupon=30PERCENT}
                                         </span>
                             <span class="evidence">
                                 </span>
                         </div>
                     </td>
 
-                        <td width="160" class="SUCCESS-text">
-
-                                <a href="551e573dae173d426ed5f91133c2ce7562d2d1ce19cd8f3df3addce0dcfb613f_screenshots.html#screenshots?screenshot=2">
-                                    <img src="e698dfc94837e7b53af91a304a1d84116e76e28402532f23a856ff93b983ae39.png"
-                                         href="e698dfc94837e7b53af91a304a1d84116e76e28402532f23a856ff93b983ae39.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
                     <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">863ms</span></td>
+                    <td width="100"><span class="top-level-step">004ms</span></td>
                 </tr>
             <tr class="test-SUCCESS">
-                    <td colspan="3"></td>
+                    <td colspan="2"></td>
                 <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                <td width="100"><span class="top-level-step"><em>5.7s</em></span></td>
+                <td width="100"><span class="top-level-step"><em>0.01s</em></span></td>
             </tr>
 
         </table>
